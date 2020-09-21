@@ -1,0 +1,29 @@
+.choice {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: #e5e6e5;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.picked {
+  background-color: #000;
+  color: #fff;
+}
+
+.wrongNotPicked {
+  opacity: 0.35;
+}
+
+.correctNotPicked {
+  background-color: #fff;
+}
