@@ -5,20 +5,3 @@
   color: #333;
   margin-bottom: 35px;
 }
-
-.startButton {
-  height: 40px;
-  width: 200px;
-  display: block;
-  background-color: #e5e6e5;
-  color: #000;
-  border: 1px solid #000;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: capitalize;
-}

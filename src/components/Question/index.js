@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import QuestionHead from '../QuestionHead'
 import QuestionChoice from '../QuestionChoice'
+import Button from '../Button'
 
 import styles from './styles.module.css'
 
@@ -61,21 +62,15 @@ const Question = props => {
         )}
 
         {pickedAnswer && totalQuestions > questionNumber && (
-          <button
-            className={styles.questionResultBtn}
-            onClick={getNextQuestion}
-          >
+          <Button onClick={getNextQuestion}>
             next question
-          </button>
+          </Button>
         )}
 
         {pickedAnswer && totalQuestions === questionNumber && (
-          <button
-            className={styles.questionResultBtn}
-            onClick={endQuiz}
-          >
+          <Button onClick={endQuiz}>
             finish quiz
-          </button>
+          </Button>
         )}
       </div>
     </div>

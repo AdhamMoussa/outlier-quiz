@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Button from '../Button'
+
 import styles from './styles.module.css'
 
 const QuizInitialScreen = props => {
@@ -9,7 +11,8 @@ const QuizInitialScreen = props => {
   return (
     <div>
       <h1 className={styles.title}>This quiz has {totalQuestions} questions</h1>
-      <button className={styles.startButton} onClick={startQuize}>Start Quize</button>
+
+      <Button onClick={startQuize}>Start Quize</Button>
     </div>
   )
 }
