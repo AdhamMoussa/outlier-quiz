@@ -1,0 +1,13 @@
+.quiz {
+  width: 570px;
+  border: 5px solid #eaeaea;
+  padding: 40px 80px;
+  position: relative;
+}
+
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

@@ -1,0 +1,5 @@
+.progressBar {
+  height: 12px;
+  background-color: #a9aaa9;
+  transition: width 0.25s;
+}
